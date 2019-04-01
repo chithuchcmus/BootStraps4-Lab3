@@ -1,0 +1,44 @@
+
+/* draw line under header */
+#header-main {
+    border-bottom-style: solid;
+    border-bottom-color: skyblue;
+    border-bottom-width: 5px;}
+
+#header_content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+    font-family:  'Changa One', cursive;
+
+}
+
+body  p  img
+{
+    border-radius: 10px;
+    height: 80%;
+    float: left;
+    width: 350px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+/* footer */
+footer{
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: 50px;
+}
+
+body > div:nth-child(3) > p > a
+{
+    color:skyblue;
+}
+body > footer > div > nav > ul > li:nth-child(1) > a{
+    color:white;
+    
+}
+body > footer > div > nav > ul > li:nth-child(2) > a
+{
+    color:pink;
+}

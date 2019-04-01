@@ -1,0 +1,52 @@
+
+/* draw line under header */
+#header-main {
+    border-bottom-style: solid;
+    border-bottom-color: skyblue;
+    border-bottom-width: 5px;}
+
+#header_content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+    font-family:  'Changa One', cursive;
+
+}
+
+footer{
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: 50px;
+    
+}
+/* label and margin image */
+body > div:nth-child(3) > span > p {
+    color:red;
+    display: inline-block;
+    margin: 0px 10px 20px 0px;
+
+}
+a:visited{
+    color: skyblue;
+}
+body > div:nth-child(3) > span:nth-child(5) > p > a
+{
+    color:black;
+}
+a{
+    font-size:15px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+ .img-category{
+     width: 360px;
+     margin-top: 10px;
+}
+body > div:nth-child(3) > span > p > a
+{
+    color:skyblue;
+}
+body > footer > div > nav > ul > li:nth-child(3) > a
+{
+    color:pink;
+}

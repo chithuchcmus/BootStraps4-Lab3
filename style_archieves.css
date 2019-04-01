@@ -1,0 +1,75 @@
+
+/* draw line under header */
+#header-main {
+    border-bottom-style: solid;
+    border-bottom-color: skyblue;
+    border-bottom-width: 5px;}
+
+.big-font-size{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:black;
+    font-family:  'Changa One', cursive;
+
+}
+/* main-image */
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > div > p.font-list > img{
+    float: left;
+    width: 250px;
+    border-radius: 10px;
+    margin:10px 10px 20px 0px;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > div{
+    display: inline-block;
+}
+/* footer */
+footer{
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: 50px;
+}
+
+/* list style */
+ul{
+    list-style-image: url('images/marker1.png');
+    
+}
+nav > ul > .page-item {
+    color:skyblue !important;
+}
+li{
+    margin: 5px 0px 5px 0px;
+}
+.font-list{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.link_underline{
+    text-decoration: underline;
+}
+body > div.container > div > div.col-sm-8 > div > div > p:nth-child(1) > a{
+    color: skyblue ;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > div > p.font-list > a
+{
+    color: skyblue ;
+
+}
+body > footer > div > nav > ul > li:nth-child(4) > a{
+    color:pink;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > nav > ul > li
+{
+    margin: 3px;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > nav > ul > li.page-item.active > a {
+    color:greenyellow;
+    background-color: white;
+    border-color: gray;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > nav > ul > li > a {
+    color:skyblue;
+    background-color: white;
+}
